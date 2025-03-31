@@ -5,8 +5,8 @@ public class StudentDataHandler {
 
     public static void main(String[] args) {
         // Sample student data
-        Student student1 = new Student(101, "Alice", 3.8);
-        Student student2 = new Student(102, "Bob", 3.5);
+        Student student1 = new Student(101, "Nikhil", 3.8); 
+        Student student2 = new Student(102, "Bobby", 3.5);
 
         // Store student data
         storeStudentData(student1);
