@@ -9,7 +9,7 @@ public class BufferedStreamFileCopy {
         String destFile2 = "copy_buffered.dat"; // Output for buffered stream
 
         // Copy using normal file streams
-        long timeNormal = copyUsingNormalStreams(sourceFile, destFile1);
+        long timeNormal = copyUsingNormalStreams(sourceFile, destFile1); 
         System.out.println("Time taken with normal streams: " + timeNormal + " ns");
 
         // Copy using buffered streams
