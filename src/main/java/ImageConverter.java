@@ -2,7 +2,7 @@ import java.io.*;
 
 public class ImageConverter {
     public static void main(String[] args) {
-        String inputImagePath = "input.jpg";  // Original image file
+        String inputImagePath = "input.jpg";  // Original image file 
         String outputImagePath = "output.jpg"; // Converted image file
 
         try {
