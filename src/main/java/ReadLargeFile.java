@@ -12,7 +12,7 @@ public class ReadLargeFile {
             while ((line = reader.readLine()) != null) {
                 if (line.toLowerCase().contains("error")) { // Case-insensitive check
                     System.out.println(line);
-                }
+                } 
             }
         } catch (FileNotFoundException e) {
             System.out.println("Error: File not found!");
