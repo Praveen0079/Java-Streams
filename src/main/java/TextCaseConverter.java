@@ -5,7 +5,7 @@ public class TextCaseConverter {
         String inputFile = "input.txt";   // File to read from
         String outputFile = "output.txt"; // File to write to
 
-        try {
+        try { 
             convertUppercaseToLowercase(inputFile, outputFile);
             System.out.println("Conversion successful! Check 'output.txt'.");
         } catch (IOException e) {
