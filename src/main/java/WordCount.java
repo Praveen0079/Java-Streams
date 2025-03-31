@@ -3,7 +3,7 @@ import java.util.*;
 
 public class WordCount {
     public static void main(String[] args) {
-        String filePath = "sample.txt"; // Change this to your actual file path
+        String filePath = "sample.txt"; // Change this to your actual file path 
         countWords(filePath);
     }
 
