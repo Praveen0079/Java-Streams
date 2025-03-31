@@ -6,7 +6,7 @@ public class readFromConsole {
         String root = "C:\\Users\\Piyush\\OneDrive\\Desktop\\bridgelabz-workspace\\Java-Collections\\Java-Streams\\src\\main\\java\\Sample\\";
 
         try(InputStreamReader isr = new InputStreamReader(System.in);
-         FileOutputStream fos = new FileOutputStream(root+"output1.txt")){
+         FileOutputStream fos = new FileOutputStream(root+"output1.txt")){ 
             System.out.print("Enter : ");
             int letter = isr.read();
             while (isr.ready()){
