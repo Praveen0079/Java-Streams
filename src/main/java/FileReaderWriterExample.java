@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class FileReaderWriterExample {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         String root = "C:\\Users\\Piyush\\OneDrive\\Desktop\\bridgelabz-workspace\\Java-Collections\\Java-Streams\\src\\main\\java\\Sample\\";
 
         try (FileReader fr = new FileReader(root+"input.txt");
