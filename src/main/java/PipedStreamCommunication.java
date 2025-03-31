@@ -11,7 +11,7 @@ class WriterThread extends Thread {
     public void run() {
         try {
             String message = "Hello from WriterThread!";
-            System.out.println("Writer: Writing message...");
+            System.out.println("Writer: Writing message..."); 
             pos.write(message.getBytes()); // Write data to the pipe
             pos.close(); // Close stream after writing
         } catch (IOException e) {
